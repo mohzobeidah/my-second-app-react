@@ -18,6 +18,7 @@ export default class User extends React.Component {
     return (
       <>
         <ul>
+          //use trinraly obperator ?
           {this.isAuth && this.state.users.map((user, index) => {
             if (user.isAdmin)
               return (

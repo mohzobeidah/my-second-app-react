@@ -4,7 +4,7 @@ import Navbar1 from './navbar/navbar';
 import Link from './link/link';
 import {Nav} from'react-bootstrap'
 import User from './user/user'; // Import the User component
-
+import Button from './button/button';
 function App() {
   return (
     <div className="App">
@@ -27,6 +27,8 @@ function App() {
         <Link name="Contact Us" href="ggggggg"/>
       <input type='text'></input>
       
+
+      <Button />
 
       <Nav defaultActiveKey="/home" as="ul">
       <Nav.Item as="li">
