@@ -45,7 +45,6 @@ function UserFunction(props) {
       return (
         <>
           <ul>
-            //use trinraly obperator ?
             {isAuth && users.map((user, index) => {
               if (user.isAdmin)
                 return (
